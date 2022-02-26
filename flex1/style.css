@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.block_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid yellow;
+    margin: 0px 0px 20px 0px;
+}
+.block_column{
+    border: 20px solid rgb(201, 128, 140);
+}
+.block_item{
+    background-color: rgb(73, 71, 163);
+    padding: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.block_item2{
+    background-color: rgb(73, 71, 163);
+    padding: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    width: 200px;
+    height: 100px;
+}
