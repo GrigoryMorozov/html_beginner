@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content, .header, .footer{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.header, .footer{
+    background-color: #009090;
+    color: #ffffff;
+}
+.content p{
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.content{
+    flex-grow: 1;
+}

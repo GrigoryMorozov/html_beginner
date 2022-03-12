@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+
+}
+html, body{
+    height: 100%;
+}
+.wrapper{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.header, .footer{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    flex: 0 0 auto;
+}
+.content{
+    flex: 1 0 auto;
+}
