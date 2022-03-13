@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
 }
 html, body{
@@ -26,4 +26,53 @@ header, footer{
 .wrapper_content{
     flex: 1 0 auto;
 }
-/* футер прибит*/
+футер прибит
+ */
+
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+header, footer{
+    color: rgb(255, 251, 251);
+    background-color: rgb(103, 141, 119);
+    padding: 30px;
+    text-align: center;
+}
+header{
+    margin-bottom: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.content{
+    box-sizing: border-box;
+    width: 100%;
+    display:flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles{
+    /* box-sizing: border-box; */
+    width: 60%;
+    padding: 30px;
+}
+article h2{
+    text-align: center;
+    padding: 10px;
+}
+.foto{
+    box-sizing: border-box;
+    display:inline-flex;
+    padding: 10px;
+    border: 2px solid black;
+    height: fit-content;
+}
+img{
+    object-fit: cover;
+}
