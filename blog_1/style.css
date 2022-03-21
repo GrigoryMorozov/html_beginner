@@ -1,0 +1,107 @@
+
+
+
+
+
+
+html{
+    height: 100%;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E0DCDC;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+
+
+/* шапка =======
+============================= */
+header{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    border-bottom: 9px solid #888080;
+    font-size: 2,5vw;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+   
+}
+
+.header__inner{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 42px;
+    padding-bottom: 65px;
+    align-items: center;
+}
+
+/* .header__logo{
+    
+} */
+
+
+
+.title{
+    color: #D4CCCC;
+    padding-left: 44px;
+}
+
+/* основная часть=============
+================================ */
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    flex: 1 0 auto;
+    font-size: 1,5vw;
+}
+
+
+.main_intro{
+    background-color: white;
+    color: #000000;
+    
+    
+    padding:25px;
+}
+.main_articles{
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+/* подвал===========
+====================== */
+footer{
+    width: 100%;
+    height: auto;
+    color: #979797;
+    background-color: #252525;
+}
+.footer_text{
+    padding-left: 10%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 1,3vw;
+    
+}
