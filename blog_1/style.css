@@ -105,3 +105,29 @@ footer{
     font-size: 1,3vw;
     
 }
+
+/* .menu{
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid black;
+    max-width: 50px;
+    height: 100px;
+    
+    
+
+}
+.text_menu{
+    overflow: hidden;
+    position: inherit;
+    max-width: 50px;
+    height: 100px;
+}
+.menu_block{
+    position: relative;
+    display: flex;
+    border: 1px solid red;
+    height: 80px;
+    top: 18px;
+    background-color: #000000;
+
+} */

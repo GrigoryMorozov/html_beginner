@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+}
+
+*,
+*:before,
+*:after
+{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: red; */
+}
+
+
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: 
+  url(img/intro.gif) center no-repeat;
+  -webkit-background-size: cover;
+  background-size:cover;
+}
+
+.header{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header__logo{
+  font-size: 30px;
+  font-weight: 700;
+  color:#fff;
+}
+
+
+.nav{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+

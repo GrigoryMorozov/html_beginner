@@ -1,0 +1,40 @@
+@media screen and (min-width: 50rem) {
+    .IntroWrapper{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .MoneyShot
+    .IntroText{
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .IntroText{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .Ingredients{
+        font-size: .9rem;
+        float: right;
+        padding: 1rem;
+        margin: 0 0 .5rem 1rem;
+        border-radius: 3px;
+        background-color: #ffffdf;
+        border: 2px solid #e8cfa9;
+    }
+    .Ingredients h3{
+        margin: 0;
+    }
+    body{
+        background-color: black;
+    }
+}
+
+img{
+    max-width: 100%;
+}

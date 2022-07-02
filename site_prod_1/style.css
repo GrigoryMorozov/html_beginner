@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+}
+.box{
+
+    background-color: #C4C4C4;
+    max-width: 1920px;
+    height: 877px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 109px;
+}
+.inner a{
+    padding-left: 113px;
+}
